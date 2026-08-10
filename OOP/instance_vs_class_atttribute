@@ -1,0 +1,7 @@
+class employee:
+    language="python"
+    salary=1200000
+
+shubham=employee()
+shubham.language="java"
+print(shubham.language,shubham.salary)
