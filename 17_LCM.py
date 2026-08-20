@@ -1,4 +1,4 @@
-# Write a Python program to take two numbers and calculate their GCD.
+# Write a Python program to take two numbers and calculate their LCM.
 
 a=int(input("Enter number :"))
 b=int(input("Enter number :"))
@@ -12,4 +12,6 @@ y=b
 while y!=0:
     x,y=y,x%y
 
-print(x)
+lcm=(a*b)//x
+
+print(lcm)
